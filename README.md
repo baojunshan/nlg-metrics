@@ -23,7 +23,7 @@ python run.py --input=input_path --output=output_path --metrics="['rouge-1', 'bl
 
 当前支持的方法有`rouge-l`, `rouge-2`, `rouge-l`, `bleu`, `self-bleu`, `meteor`, `ppl`。
 
-其中，如果选择`ppl`，则需要增加命令行参数`--ppl_model_path=model_path`，这个path为[模型文件](https://github.com/baojunshan/nlp-fluency)
+其中，如果选择`ppl`，则需要增加命令行参数`--ppl_model_path=model_path`，这个path为[模型文件(bert模型)](https://github.com/baojunshan/nlp-fluency)
 
 如果第一次使用`meteor`，需要去[nltk](http://www.nltk.org/nltk_data/) 下载带中文的wordnet数据 [Open Multilingual Wordnet (omw)](https://raw.githubusercontent.com/nltk/nltk_data/gh-pages/packages/corpora/omw.zip) 
 以及 [wordnet](https://raw.githubusercontent.com/nltk/nltk_data/gh-pages/packages/corpora/wordnet31.zip) ，放入`/root/nltk_data/corpora/`中解压 
